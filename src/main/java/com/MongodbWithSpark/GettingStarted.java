@@ -38,6 +38,7 @@ public class GettingStarted {
 	    // Create a JavaSparkContext using the SparkSession's SparkContext object
 	    JavaSparkContext jsc = new JavaSparkContext(spark.sparkContext());
 
+	   
 	    /*Start Example: Read data from MongoDB************************/
 	    JavaMongoRDD rdd = MongoSpark.load(jsc);
 	    /*End Example**************************************************/
